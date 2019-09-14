@@ -1,0 +1,49 @@
+body {
+    height: 100%;
+    width: auto;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 120px;
+    width: auto;
+    background-color: #99795b;
+}
+
+#logo {
+    float: left;
+    display: block;
+    margin: 14px 15px;
+}
+
+.logo{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.menu {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.menu li a {
+    display: block;
+    text-decoration: none;
+}
+
+div.search{
+    position: absolute;       
+    right: 37px;
+    top: 37px;
+    width: 41px;
+    height: 40px;
+    z-index: 103;
+}
+
+
+
+
